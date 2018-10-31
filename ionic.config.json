@@ -1,0 +1,7 @@
+{
+  "name": "anouIonicApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
