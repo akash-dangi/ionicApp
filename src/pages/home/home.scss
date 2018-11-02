@@ -1,3 +1,70 @@
+
 page-home {
 
+    // .myClass{
+    //     background-color: red;
+    // }
+
+    // <style>
+    body{padding: 10px 0;}
+    #header{border-bottom: none;}
+    #body{margin-top:100px;}
+    @media (max-width: 980px){
+      #body{margin-top:0px;}
+    }
+
+    #admin-dashboard{font-size: 26pt;}
+
+    input{max-width: 150px;}
+    ul{list-style: none;}
+    form{
+      text-align: center;
+    }
+
+    table{
+      margin: 0 auto;
+    }
+    table td{
+      height: 4em;
+      vertical-align: middle;
+    }
+    input{
+      width: 8em;
+      text-align: center;
+    }
+    table i{
+      font-size: 3em;
+      padding: 0 .5em;
+    }
+    button, .exit-button span{
+      // font-size: 2.5em;
+      font-size: 1em;
+      line-height: normal;
+      height: 1.5em;
+      width: 4em;
+      background-color: green;
+      border: none;
+      border-radius: 0.5em;
+      margin: 0.5em;
+    }
+    .exit-button{
+      border-left: 1em solid transparent;
+    }
+    .exit-button span{
+      font-size: 1em;
+      height: 100%;
+      width: 3em;
+      opacity: 0.01;
+      padding: 0.5em 0em;
+    }
+    .chg-type-to-text{
+      font-size: 0.5em;
+      line-height: 4.5em;
+      color: white;
+      cursor: pointer;
+    }
+    .error{
+      background-color: rgba(245, 0, 0, 0.3);
+    }
+//   </style>
 }
